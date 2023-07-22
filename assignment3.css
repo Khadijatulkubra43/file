@@ -1,0 +1,28 @@
+div.review {
+    background-color: RED; 
+    border: 1px solid YELLOW; 
+  }
+  p.summary {
+  	font-style: italic;
+  }
+  .review P{
+    color: white;
+  }
+  div .one {
+    background-color: yellow;
+  }
+  div ~ p {
+    background-color: orange;
+  }
+  div > p{
+    background-color: green;
+  }
+  div + p {
+    background-color: red;
+  }
+  #myHeader {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+  } 
